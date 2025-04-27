@@ -1,0 +1,7 @@
+file = open("data.txt", "r", encoding="utf-8")
+text=file.read()
+text1=input("что купить еще? ")
+file.close()
+file = open("data.txt", "w", encoding="utf-8")
+file.write(text + " и " + text1)
+file.close()
