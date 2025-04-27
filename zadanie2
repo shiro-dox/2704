@@ -1,0 +1,8 @@
+file = open("data.txt", "w", encoding="utf-8")
+text = input("введите слово ")
+file.write(text)
+file.close()
+file = open("data1.txt", "w", encoding="utf-8")
+text1=input("введите еще одно слово")
+file.write(text1)
+file.close()
