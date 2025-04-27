@@ -1,0 +1,6 @@
+file = open("data.txt", "r", encoding="utf-8")
+text=file.read()
+file.close()
+file1= open("data1.txt", "w", encoding="utf-8")
+file1.write(text)
+file1.close()
