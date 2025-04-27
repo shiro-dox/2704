@@ -1,0 +1,6 @@
+file = open("data.txt", "w", encoding="utf-8")
+text = input("Какое имя у того человека? ")
+file.write(text + " ")
+text1 = input("Какое имя у того человека? ")
+file.write(text1)
+file.close()
